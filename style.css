@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+  }
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+header h1 {
+    padding: 15px;
+    color: #ccadfa;
+
+}
+
+header nav {
+    padding: 25px;
+    margin: 15px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    list-style-type: none;
+    align-items: center;
+}
+
+header nav a {
+    display: inline-block;
+    margin: 0px 20px;
+    color: #f0a9d4;
+}   
+
+
+  /*
+.lillie {
+    max-width: 15%;
+    height: auto; 
+    border-radius: 75%;
+} */
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/pineapple.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutme {
+    padding: 20px;
+    margin: 30px;
+    display: flexbox;
+    background-color: white;
+}
+
+/*
+.friut {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 25px;
+    align-items: center;
+}*/
+
+ul {
+    list-style-type: none;
+}
+
