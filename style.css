@@ -54,11 +54,17 @@ main {
     margin-top: 2%;
 }
 
+#me {
+    text-align: center;
+    color: #f57ac3;
+}
+
 h2{
     font-family: 'Open Sans', sans-serif !important;
     line-height: 1.1;
     font-size: 40px;
     font-weight: 300;
+    color: #ccadfa;
 
 }
 
@@ -70,12 +76,17 @@ h2{
 .aboutme {
     padding: 40px 60px;
     margin: 30px;
-    display: flexbox;
+    display:block;
     
 }
 
-#me {
-    text-align: center;
+.lillie{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 8px solid #ccadfa;
+    width:fit-content;
 }
 
 .pp{
@@ -85,7 +96,7 @@ h2{
 #work,
 #contact {
     padding: 20px;
-    margin: 30px;
+    margin: 0px 30px;
     display: flexbox;
     text-align: center;
     
@@ -94,15 +105,12 @@ h2{
 .column {
     flex: 1 0 0px;
     flex-wrap: wrap;
-    padding: 10px 100px;
+    padding:5px 130px 20px;
     margin-top: 0%;
     display: inline-block;
     transition:trasform .2s ;
 }
 
-.pimg{
-    text-align: center;
-}
 .work{
     margin: 5px 0px;
 }
@@ -139,7 +147,12 @@ h2{
     border-width: 1px;
 }
 
-
+.contact{
+    display: inline;
+    margin: 0px 40px;
+    color:black;
+    text-decoration: none;
+}
 
 footer {
     padding: 30px;
