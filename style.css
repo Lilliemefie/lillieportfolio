@@ -39,6 +39,8 @@ header nav a {
 }   
 
 .hero {
+    display: flex;
+    flex-wrap: wrap;
     height: 800px;
     width: 100%;
     margin-top: -2.5rem;
