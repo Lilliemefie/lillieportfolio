@@ -5,7 +5,7 @@ This is my personal portfolio that you can see my work and know more about me.
 
 You can check out my page here: [https://lilliemefie.github.io/lillieportfolio](https://lilliemefie.github.io/lillieportfolio)
 
-![page](./assets/Screen Shot 5.13 .png)
+![page](./assets/Screen Shot Readme.jpg)
 
 Langauge used:
 - HTML
