@@ -91,14 +91,29 @@ h2{
     
 }
 
-.work {
+.column {
+    flex: 1 0 0px;
+    flex-wrap: wrap;
+    padding: 10px 100px;
+    margin-top: 0%;
+    display: inline-block;
+    transition:trasform .2s ;
+}
+
+.pimg{
+    text-align: center;
+}
+.work{
+    margin: 5px 0px;
+}
+
+/* .work {
     flex: 1 0 0px;
     padding: 0px;
     margin: 20px 0px;
     display: inline-block;
-    transition: transform .2s;
-    
-}
+    transition: transform .2s;  
+} */ 
 
 .work:hover{
     transform: scale(1.1);
@@ -106,6 +121,13 @@ h2{
 
 .qword{ 
     font-size: 20px;
+}
+
+.container{
+    padding: 15px 25px 10px ;
+    margin: 0px 40px 0px;
+    display: inline-block;
+    
 }
 
 #contact {
@@ -117,12 +139,7 @@ h2{
     border-width: 1px;
 }
 
-section a{
-    padding: 10px;
-    margin: 0px 40px;
-    display: inline;
-    
-}
+
 
 footer {
     padding: 30px;
