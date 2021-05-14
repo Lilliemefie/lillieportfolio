@@ -12,7 +12,7 @@ body {
 header {
     padding: 60px;
     height:auto;
-    background-color:#FFFF99;
+    background-color:  #FFFF99;
 }
 
 header h1 {
@@ -61,15 +61,25 @@ h2{
     font-weight: 300;
 
 }
+
+.hh {
+    font-size: 30px; 
+    text-align: center;
+}
+
 .aboutme {
-    padding: 20px;
+    padding: 40px 60px;
     margin: 30px;
     display: flexbox;
-    background-color: white;
+    
 }
 
 #me {
     text-align: center;
+}
+
+.pp{
+    font-size: 18px; 
 }
 
 #work,
@@ -78,6 +88,7 @@ h2{
     margin: 30px;
     display: flexbox;
     text-align: center;
+    
 }
 
 .work {
@@ -86,6 +97,7 @@ h2{
     margin: 20px 0px;
     display: inline-block;
     transition: transform .2s;
+    
 }
 
 .work:hover{
@@ -109,7 +121,7 @@ section a{
     padding: 10px;
     margin: 0px 40px;
     display: inline;
-    background-color: white;
+    
 }
 
 footer {
