@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif !important;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'PT Mono', monospace;
 }
 
 body {
@@ -117,14 +118,7 @@ h2{
     margin: 5px 0px;
 }
 
-/* .work {
-    flex: 1 0 0px;
-    padding: 0px;
-    margin: 20px 0px;
-    display: inline-block;
-    transition: transform .2s;  
-} */ 
-
+/* Making photo bigger when cursor is hovering the image */
 .work:hover{
     transform: scale(1.1);
 }
@@ -178,4 +172,9 @@ h4 {
     main {
       max-width: 1200px;
     }
-  }
+
+    .work{
+        width: fit-content;
+    }
+  } 
+
