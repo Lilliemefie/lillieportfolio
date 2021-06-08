@@ -1,7 +1,15 @@
-* {
-    box-sizing: border-box;
+
+body{
     font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'PT Mono', monospace;
+    font-size: 1rem;
+    color: #364547;
+
+}
+
+section{
+    width: 100%;
+    height: 100%;
 }
 
 #mainBody{
@@ -14,10 +22,40 @@ header.container{
     margin-bottom: 50px;
 }
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 432px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media screen and (min-width:1599px){
+.container{
+  max-width:1280px;
+ }
+}
+
+.navbar {
+    padding: 20px 40px 10px 40px;
+    /* opacity: 80%; */
+}
+
+.jumbotron{
+    margin: 100px -50px 30px -50px;
+}
+
+div {
+    display: block;
+}
+
+
+
 
 footer{
     text-align: center;
     border-top: 1px solid #2f5d62;
     padding: 20px 0;
     font-size: .875rem;
+    
 }
