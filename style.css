@@ -3,8 +3,8 @@ body{
     font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'PT Mono', monospace;
     font-size: 1rem;
-    color: #113f67;
-    background-color: #e7eaf6;
+    color: #272343;
+    background-color: #ffffff;
 
 }
 
@@ -33,7 +33,7 @@ header.container{
 
 @media screen and (min-width:1599px){
 .container{
-  max-width:1280px;
+  max-width:1200px;
  }
 }
 
