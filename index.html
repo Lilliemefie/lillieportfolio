@@ -18,7 +18,7 @@
     <section id="mainBody">
         <!-- Navbar -->
         <header class="container containerSet">
-            <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #bae8e8;">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e7e6e1;">
                 <h1 class="navbar-brand" href="#">Lillie's Portfolio</h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,20 +29,20 @@
                         <a class="nav-item nav-link active" href="#aboutMe">ABOUT <span
                                 class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a>
-                        <a class="nav-item nav-link" href="#">CONTACT</a>
+                        <a class="nav-item nav-link" href="#contact">CONTACT</a>
                         <a class="nav-item nav-link" href="#">RESUME</a>
                     </div>
                 </div>
             </nav>
 
-            <div class="jumbotron jumbotron-fluid" style="background-color: #e3f6f5;">
+            <div class="jumbotron jumbotron-fluid" style="background-color: #ffffff;">
                 <div class="container">
                     <div class="row align-items-end">
                         <div class="col-12 col-md-6">
                             <img class='img-fluid' src="./assets/lillie-la.JPG" alt="webdeveloper" />
                         </div>
                         <div class="col-12 col-md-6 align-items-center">
-                            <h1>Lillie Jirapattanalak</h1>
+                            <h1 id="aboutMe">Lillie Jirapattanalak</h1>
                             <p class="lead">['Detail Oriented', 'Active Learning', 'Problem Solving', 'Collaboration ']
                             </p>
                             <br><br><br><br><br>
@@ -53,7 +53,7 @@
 
         </header>
         <!-- Container (About me Section) -->
-        <div class="card containerSet row col-sm-6" style="background-color:#e3f6f5;" id="aboutMe">
+        <div class="card containerSet row col-sm-6" style="background-color:#f7f6e7;">
             <div class="card-body">
                 <h2 class="card-title" style="text-align: center;">{ About Lillie }</h2>
                 <p class="card-text">My name is Lillie and I am a student at UCLA Extension’s Full Stack Development
@@ -76,60 +76,55 @@
 
         <br>
         <br>
-
-        <div class="container-fluid col-12 col-md-8 text-center">
-            <h2>Portfolio</h2>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <p>Lorem ipsum..</p>
-                    <img class='img-fluid' src="./assets/AskmeWeather resize.png" alt="Image">
-                </div>
-                <div class="col-12 col-md-6">
-                    <p>Lorem ipsum..</p>
-                    <img class='img-fluid' src="./assets/FoodSter Project1.jpg" alt="Image">
-                </div>
-                <div class="col-12 col-md-6">  
-                    <p>Lorem ipsum..</p>
-                    <img class='img-fluid' src="./assets/password generator.gif" alt="Image">
-                </div>
-                <div class="col-12 col-md-6">
-                    <p>Lorem ipsum..</p>
-                    <img class='img-fluid' src="./assets/web-design-concept-with-drawings_1134-77.jpeg"
-                        alt="Image-fluid">
-                </div>
-            </div>
-        </div>
-        <!-- <img class="card-img-bottom" src="..." alt="Card image cap"> -->
-        </div>
         <!-- Container (Portfolio Section) -->
-        <!-- <div class="container-fluid text-center bg-grey containerSet" id="portfolio">
-            <h2>Portfolio</h2><br>
+        <div class="container-fluid col-12 col-md-8 text-center">
+            <h2 id="portfolio">Portfolio</h2>
+            <span></span>
             <h4>What I have created</h4>
             <div class="row text-center">
-                <div class="col-md-6">
-                        <img src="./assets/AskmeWeather.png" alt="Paris" width="560" height="354">
-                        <p><strong>Paris</strong></p>
-                        <p>Yes, we built Paris</p> 
+                <div class="col-12 col-md-6 photo">
+                    <br><br>
+                    <p>Lorem ipsum..</p>
+                    <a href="https://lilliemefie.github.io/WeatherDashboard/">
+                        <img class='img-fluid' src="./assets/AskmeWeather resize.png" alt="Image">
+                    </a>
                 </div>
-                <div class="col-md-6">
-
-                    <img src="./assets/password generator.gif" alt="New York" width="560" height="354">
-                    <p><strong>New York</strong></p>
-                    <p>We built New York</p>
+                <div class="col-12 col-md-6 photo">
+                    <br><br>
+                    <p>Lorem ipsum..</p>
+                    <a href="https://chrischo94.github.io/TinderForFood/">
+                        <img class='img-fluid' src="./assets/FoodSter Project1.jpg" alt="Image">
+                    </a>
                 </div>
-                <div class="col-md-6">
-                        <img src="./assets/Foodster Project1.png" alt="San Francisco" width="560" height="354">
-                        <p><strong>San Francisco</strong></p>
-                        <p>Yes, San Fran is ours</p>
+                <div class="col-12 col-md-6 photo">
+                    <br><br>
+                    <p>Lorem ipsum..</p>
+                    <a href="https://lilliemefie.github.io/password-generator/">
+                        <img class='img-fluid' src="./assets/password generator.gif" alt="Image">
+                    </a>
                 </div>
-                <div class="col-md-6">
-                        <img src="./assets/creative-design-designer-man-working_53876-98147.jpeg" alt="San Francisco"
-                        width="560" height="354">
-                        <p><strong>San Francisco</strong></p>
-                        <p>Yes, San Fran is ours</p>
+                <div class="col-12 col-md-6 photo">
+                    <br><br>
+                    <p>Lorem ipsum..</p>
+                    <a href="#">
+                        <img class='img-fluid' src="./assets/web-design-concept-with-drawings_1134-77.jpeg"
+                            alt="Image-fluid">
+                    </a>
                 </div>
             </div>
-        </div> -->
+        </div>
+        <br>
+        <br>
+        <!-- Contact section -->
+        <div class="card containerSet row col-sm-6 text-center" style="background-color:#f7f6e7;">
+            <div class="card-body">
+                <h2 class="card-title" style="text-align: center;" id="contact">{ Contact }</h2>
+                <p class="card-text">Contact me and I'll get back to you within 24 hours.</p>
+                    <a href="mailto:lilliejira@gmail.com" class="contact">lilliejira@gmail.com</a>
+                    <a href="tel:424.421.9924" class="contact">424.421.9924</a> 
+                    <a href="https://www.linkedin.com/in/lillie-jirapattanalak" class="contact" id="blue">Lillie-Linkedin</a>
+            </div>
+            <!-- <img class="card-img-bottom" src="..." alt="Card image cap"> -->
         </div>
     </section>
 

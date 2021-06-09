@@ -46,7 +46,7 @@ header.container{
     padding-bottom: 25px;
     padding-top: 25px;
     margin-top: 100px;
-    border: dashed 3px #a2a8d3;
+    border: dashed 3px #272343;
     border-radius: 5px;
 }
 
@@ -58,8 +58,10 @@ div {
     display: block;
 }
 
-
-
+/* Making photo bigger when cursor is hovering the image */
+.photo:hover{
+    transform: scale(1.1);
+}
 
 footer{
     text-align: center;
