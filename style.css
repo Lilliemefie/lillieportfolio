@@ -1,10 +1,9 @@
 
 body{
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-family: 'PT Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1rem;
     color: #272343;
-    background-color: #ffffff;
+    background-color: #fcf5ee;
 
 }
 
@@ -46,7 +45,7 @@ header.container{
     padding-bottom: 25px;
     padding-top: 25px;
     margin-top: 100px;
-    border: dashed 3px #272343;
+    border: dashed 3px #835858;
     border-radius: 5px;
 }
 
