@@ -7,9 +7,10 @@ You can check out my page here: [https://lilliemefie.github.io/lillieportfolio](
 
 ![page](https://github.com/Lilliemefie/lillieportfolio/blob/main/assets/ReadMe%20Screen%20Shot%20.png?raw=true)
 
-Langauge used:
+Technologies and Tools:
 - HTML
 - CSS
+- Bootstrap
 
 Credit:
 - Freepix Photo by: [Rawpixel](https://www.freepik.com/rawpixel.com)
