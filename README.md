@@ -12,10 +12,6 @@ Technologies and Tools:
 - CSS
 - Bootstrap
 
-Credit:
-- Freepix Photo by: [Rawpixel](https://www.freepik.com/rawpixel.com)
-- Freepix Photo by: [Creativeart](https://www.freepik.com/creativeart)
-- Unsplash Photo by: [Evi Radauscher](https://unsplash.com/@eviradauscher)
 
 ## License
 ![GitHub license](https://img.shields.io/badge/license-MIT-yellow.svg) 
