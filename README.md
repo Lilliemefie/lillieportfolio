@@ -1,5 +1,5 @@
 # Portfolio
-## Welcome to Lillie's portfolio
+## Welcome to Lillie's portfolio ![](https://badgen.net/badge/icon/Lillie/orange?icon=dependabot&label)
 
 This is my personal portfolio that you can see my work and know more about me. 
 
